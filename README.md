@@ -14,7 +14,7 @@ that you will be able to use thanks to this setup.
 * watches changes in your style.scss file, recompiles the file into a browser friendly style.css
 * watches for changes in index.js, recompiles all of your javascript into a browser friendly compiled.js file, also includes a .map file
 * serves up your index.html to localhost:3000
-* has a build feature for optimising index.js and style.scss for the browser
+* has a build feature for optimising index.js and style.scss for production
 
 ## getting started ##
 
