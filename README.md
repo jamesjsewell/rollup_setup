@@ -11,10 +11,13 @@ that you will be able to use thanks to this setup.
 
 ## How do I use this? ##
 
-first of all, navigate to the project in your terminal and run npm install in the terminal.
+* navigate to the project in your terminal
+* run this command in your terminal: npm run start 
+* all good! now your project should be compiled, and served up to localhost:3000
 
-### this tool has 3 features###
+### this tool has 3 features ###
+
 * watches changes in your style.scss file, recompiles the file into a browser friendly style.css
 * watches for changes in index.js, recompiles all of your javascript into a browser friendly compiled.js file, also includes a .map file
-* serves up your index.html to localhost:300
+* serves up your index.html to localhost:3000
 
