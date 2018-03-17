@@ -40,4 +40,11 @@ For more information, see Apple's support article on the subject" https://suppor
 * run this command in your terminal: npm run build
 * compiled.js and style.css will be optimised for the browser and ready for production
 
+## how did i get this working? ##
+
+for the most part thanks to this article, though it was a bit out-dated, requiring me to modify one piece of his code which was a super easy fix/update. https://code.lengstorf.com/learn-rollup-js/
+
+It appears that it's also possible to process css with rollup as well, which may end up being a more elegant solution than mine, but mine works fine for all intensive purposes. 
+
+
 
