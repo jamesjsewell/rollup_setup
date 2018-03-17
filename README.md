@@ -11,9 +11,15 @@ that you will be able to use thanks to this setup.
 
 ## How do I use this? ##
 
+#### in development ####
 * navigate to the project in your terminal
 * run this command in your terminal: npm run start 
 * all good! now your project should be compiled, and served up to localhost:3000
+
+#### for production ####
+* navigate to the project in your terminal
+* run this command in your terminal: npm run build
+* compiled.js and style.css will be optimised for the browser and ready for production
 
 ### this tool has 3 features ###
 
