@@ -1,0 +1,20 @@
+.wrapper{
+    width: 80%;
+    margin: auto;
+    background: grey;
+    padding: 1rem;
+    p{
+        color: white;
+        padding: .5rem;
+    }
+    .content{
+        width: 100%;
+        background: rgba(0,0,0,.1);
+        
+        p{
+            color:white;
+            padding: .5rem;
+            outline: .2rem solid white;
+        }
+    }
+}
