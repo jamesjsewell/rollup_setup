@@ -2,7 +2,7 @@
 
 ## what is this for? ##
 
-if you want to use this for developing react apps, you might be able to, infact i know you can but it may require modifications. 
+if you want to use this for developing react apps, you might be able to, in fact i know you can but it may require modifications. 
 
 this is best suited for those who want to write modern es6 syntax and have it work in the browser. My main reason for creating this
 is I like to use javascript modules so that I can organize my code across different javascript files. This happens to 
