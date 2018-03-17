@@ -1,5 +1,7 @@
 # rollup_setup
 
+this project is based around https://rollupjs.org/guide/en
+
 ## what is this for? ##
 
 if you want to use this for developing react apps, you might be able to, in fact i know you can but it may require modifications. 
