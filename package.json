@@ -1,7 +1,7 @@
 {
   "name": "rollup_setup",
   "version": "1.0.0",
-  "description": "this is a boilerplate project for writing modern javascript",
+  "description": "this is a boilerplate project for writing modern javascript that works in the browser",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jamesjsewell/sifter.git"
+    "url": "https://github.com/jamesjsewell/rollup_setup"
   },
   "keywords": [
     "rollup",
