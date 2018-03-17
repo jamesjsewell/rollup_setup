@@ -1,1 +1,27 @@
-.wrapper{width:80%;margin:auto;background:grey;padding:1rem}.wrapper p{color:white;padding:.5rem}.wrapper .content{width:100%;background:rgba(0,0,0,0.1)}.wrapper .content p{color:white;padding:.5rem;outline:.2rem solid white}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    background: grey;
+    padding: 1rem;
+    p{
+        color: white;
+        padding: .5rem;
+    }
+    .content{
+        width: 100%;
+        background: rgba(0,0,0,.1);
+
+        h4{
+            background: blue;
+            color: white;
+        }
+        
+        p{
+            color:white;
+            padding: .5rem;
+            outline: .2rem solid white;
+        }
+
+
+    }
+}

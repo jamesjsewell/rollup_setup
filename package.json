@@ -6,13 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run watch",
-    "watch": "npm run watch-css && npm run watch-js && echo '\n\n===== watching js and scss file changes, and recompiling/ =====\n\n'",
-    "watch-js": "ttab './node_modules/.bin/rollup -c -w' && npm run serve",
-    "serve": "ttab 'node server.js'",
-    "watch-css": "ttab './node_modules/.bin/node-sass -w ./style.scss -o --output-style compressed ./style.css'",
+    "watch": "run-p watch-css watch-js serve && echo '\n\n===== watching js and scss file changes, and recompiling/ =====\n\n'",
+    "watch-js": "rollup -c -w",
+    "serve": "node server.js",
+    "watch-css": "node-sass -w ./style.scss -o --output-style compressed ./style.css",
     "build": "echo '\n\n===== building js and scss files for production =====\n\n' && npm run build-js && npm run build-css",
     "build-js": "NODE_ENV=production rollup -c",
-    "build-css": "node-sass --output-style compressed style.scss ./style.scss"
+    "build-css": "node-sass --output-style compressed style.scss ./style.css"
   },
   "repository": {
     "type": "git",
@@ -35,6 +35,7 @@
     "connect": "^3.6.6",
     "express": "^4.16.2",
     "node-sass": "^4.7.2",
+    "npm-run-all": "^4.1.2",
     "rollup": "^0.56.2",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-commonjs": "^8.3.0",
@@ -42,7 +43,6 @@
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-uglify": "^3.0.0",
     "rollup-watch": "^4.3.1",
-    "ttab": "^0.6.1",
     "watchify": "^3.10.0"
   }
 }
