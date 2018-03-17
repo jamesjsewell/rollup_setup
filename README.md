@@ -19,6 +19,7 @@ that you will be able to use thanks to this setup.
 ## getting started ##
 
 lots of text, simple mandatory consideration ( for development ):
+( don't worry, I already setup ttab and it's a dev dependency so all you need to do is just grant it access, which is detailed here )
 before you use this project, there is a one time step that must be done. Why? because I used a tool called 'ttab' which needs to be allowed special privelages in order to work. The reason for using ttab is because it enables me to open new tabs in the terminal. my npm script 'npm run start' uses an individual tab in the terminal for each of the three processes, a tab for watching js, one for watching scss, and one for serving the files. This saves the extra step of opening a new tab and running these manually. this is the npm module https://www.npmjs.com/package/ttab
 
 1. quoted from the ttab npm module:
