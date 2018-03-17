@@ -48,7 +48,7 @@ For more information, see Apple's support article on the subject" https://suppor
 * your entry code will be kept in index.js and you can branch out by importing code from other files into here
 * you will write your styling in style.scss
 * compiled.js and style.css are the files used by the browser, don't touch these
-* of course you can extend/modify this setup but depending on what mods you make you may have to update the npm scripts in package.js
+* of course you can extend/modify this setup but depending on what mods you make you may have to update the npm scripts in package.json
 
 ## how did james get this working? ##
 
