@@ -47,5 +47,8 @@ for the most part thanks to this article, though it was a bit out-dated, requiri
 
 It appears that it's also possible to process css with rollup as well, which may end up being a more elegant solution than mine, but mine works fine for all intensive purposes. 
 
+## what about keeping API keys safe? ##
+
+there is a known approach for doing this with rollup that I may implement in the future, accepting pull requests for this and any other improvements. 
 
 
