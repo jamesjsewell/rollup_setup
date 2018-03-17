@@ -33,7 +33,7 @@ For more information, see Apple's support article on the subject" https://suppor
 #### in development ####
 * navigate to the project in your terminal
 * run this command: npm run start 
-* all good! now your project should be compiled, and served up to localhost:3000
+* all good! check localhost:3000
 
 #### for production ####
 * navigate to the project in your terminal
