@@ -43,6 +43,8 @@ For more information, see Apple's support article on the subject" https://suppor
 * run this command in your terminal: npm run build
 * compiled.js and style.css will be optimised for the browser and ready for production
 
+---------------------------
+
 * your entry code will be kept in index.js and you can branch out by importing code from other files into here
 * you will write your styling in style.scss
 * compiled.js and style.css are the files used by the browser, don't touch these
