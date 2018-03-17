@@ -16,11 +16,20 @@ that you will be able to use thanks to this setup.
 * serves up your index.html to localhost:3000
 * has a build feature for optimising index.js and style.scss for the browser
 
+## getting started ##
+
+before you use this project, there is a one time step that must be done. Why? because I used a tool called 'ttab' which needs to be allowed special privelages in order to work. The reason for using ttab is because it enables me to open new tabs in the terminal. my npm script 'npm run start' uses an individual tab in the terminal for each of the three processes, a tab for watching js, one for watching scss, and one for serving the files. This saves the extra step of opening a new tab and running these manually. 
+
+
+
+* navigate to the project in your terminal
+* run this command: npm install
+
 ## How do I use this? ##
 
 #### in development ####
 * navigate to the project in your terminal
-* run this command in your terminal: npm run start 
+* run this command: npm run start 
 * all good! now your project should be compiled, and served up to localhost:3000
 
 #### for production ####
