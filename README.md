@@ -18,13 +18,13 @@ that you will be able to use thanks to this setup.
 
 ## getting started ##
 
-lots of text, simple mandatory consideration:
+lots of text, simple mandatory consideration ( for development ):
 before you use this project, there is a one time step that must be done. Why? because I used a tool called 'ttab' which needs to be allowed special privelages in order to work. The reason for using ttab is because it enables me to open new tabs in the terminal. my npm script 'npm run start' uses an individual tab in the terminal for each of the three processes, a tab for watching js, one for watching scss, and one for serving the files. This saves the extra step of opening a new tab and running these manually. this is the npm module https://www.npmjs.com/package/ttab
 
 1. quoted from the ttab npm module:
 "Important: Irrespective of installation method, Terminal / iTerm2 (iTerm.app) needs to be granted access for assistive devices in order for ttab to function properly, which is a one-time operation that requires administrative privileges.
 If you're not prompted on first run and get an error message instead, go to System Preferences > Security & Privacy, tab Privacy, select Accessibility, unlock, and make sure Terminal.app / iTerm.app is in the list on the right and has a checkmark.
-For more information, see Apple's support article on the subject"
+For more information, see Apple's support article on the subject" https://support.apple.com/en-us/HT202802
 2. navigate to the project in your terminal
 3. run this command: npm install
 
