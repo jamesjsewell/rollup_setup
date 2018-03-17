@@ -43,6 +43,11 @@ For more information, see Apple's support article on the subject" https://suppor
 * run this command in your terminal: npm run build
 * compiled.js and style.css will be optimised for the browser and ready for production
 
+* your entry code will be kept in index.js and you can branch out by importing code from other files into here
+* you will write your styling in style.scss
+* compiled.js and style.css are the files used by the browser, don't touch these
+* of course you can extend/modify this setup but depending on what mods you make you may have to update the npm scripts in package.js
+
 ## how did james get this working? ##
 
 for the most part thanks to this article, though it was a bit out-dated, requiring me to modify one piece of his code which was a super easy fix/update. https://code.lengstorf.com/learn-rollup-js/
