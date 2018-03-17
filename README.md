@@ -1,0 +1,20 @@
+# rollup_setup
+
+## what is this for? ##
+
+if you want to use this for developing react apps, you might be able to, infact i know you can but it may require modifications. 
+
+this is best suited for those who want to write modern es6 syntax and have it work in the browser. My main reason for creating this
+is I like to use javascript modules so that I can organize my code across different javascript files. This happens to 
+be an es6 only feature and must be compiled down to es2015 for the browser to read it. That's one example of an es6 feature
+that you will be able to use thanks to this setup.
+
+## How do I use this? ##
+
+first of all, navigate to the project in your terminal and run npm install in the terminal.
+
+### this tool has 3 features###
+* watches changes in your style.scss file, recompiles the file into a browser friendly style.css
+* watches for changes in index.js, recompiles all of your javascript into a browser friendly compiled.js file, also includes a .map file
+* serves up your index.html to localhost:300
+
