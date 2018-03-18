@@ -1,1 +1,23 @@
-.wrapper{width:80%;margin:auto;background:grey;padding:1rem}.wrapper p{color:white;padding:.5rem}.wrapper .content{width:100%;background:rgba(0,0,0,0.1)}.wrapper .content h4{background:blue;color:white}.wrapper .content p{color:white;padding:.5rem;outline:.2rem solid white}
+/* line 1, style.scss */
+.wrapper {
+  width: 80%;
+  margin: auto;
+  background: grey;
+  padding: 1rem; }
+  /* line 6, style.scss */
+  .wrapper p {
+    color: white;
+    padding: .5rem; }
+  /* line 10, style.scss */
+  .wrapper .content {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.1); }
+    /* line 14, style.scss */
+    .wrapper .content h4 {
+      background: green;
+      color: white; }
+    /* line 19, style.scss */
+    .wrapper .content p {
+      color: white;
+      padding: .5rem;
+      outline: .2rem solid white; }
