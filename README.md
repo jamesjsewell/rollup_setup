@@ -42,10 +42,6 @@ that you will be able to use thanks to this setup.
 * compiled.js and style.css are the files used by the browser, don't touch these
 * of course you can extend/modify this setup but depending on what mods you make you may have to update the npm scripts in package.json
 
-## how did james get this working? ##
-
-for the most part thanks to this article, though it was a bit out-dated, requiring me to modify one piece of his code which was a super easy fix/update. https://code.lengstorf.com/learn-rollup-js/
-
 It appears that it's also possible to process css with rollup as well, which may end up being a more elegant solution than mine, but mine works fine for all intensive purposes. 
 
 ## what about keeping API keys safe? ##
